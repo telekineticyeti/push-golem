@@ -1,0 +1,28 @@
+{
+  "name": "push-golem",
+  "version": "1.0.0",
+  "description": "A happy little golem and sits around waiting to push things.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teleyeti/push-golem.git"
+  },
+  "keywords": [
+    "chrono.gg",
+    "coin"
+  ],
+  "author": "paul.castle@gmail.com",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/teleyeti/push-golem/issues"
+  },
+  "homepage": "https://github.com/teleyeti/push-golem",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "express": "^4.16.2",
+    "pushbullet": "^2.1.0"
+  }
+}
